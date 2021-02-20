@@ -1,0 +1,21 @@
+{
+  "coinUID": 123,
+  "coinName": "ETH"
+  "exchanges": [
+    {
+      "exchangeUID": 544,
+      "exchangeName": "WazeerX",
+      "coinprice": 12.540
+    },
+    {
+      "exchangeUID": 675,
+      "exchangeName": "Coinbase",
+      "coinprice": 11.980
+    },
+    {
+      "exchangeUID": 434,
+      "exchangeName": "CoinDelta",
+      "coinprice": 13.004
+    }
+  ]
+}

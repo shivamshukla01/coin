@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/product.schema.json",
+  "title": "Coin",
+  "description": "Json schema of a coin object",
+  "type": "object",
+  "properties": {
+    "coinUID": {
+      "description": "The unique identifier for a coin",
+      "type": "integer"
+    },
+    "coinName": {
+      "description": "Name of the coin",
+      "type": "string"
+    },
+    "exchanges": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/exchange" }
+    }
+  },
+  "required": [ "coinUID", "coinName", "exchanges" ],
+  "definitions": {
+    "exchange": {
+      "type": "object",
+      "required": [ "exchangeUID", "exchangeName","coinprice" ],
+      "properties": {
+        "exchangeUID": {
+          "type": "integer",
+          "description": "UID of the exchange"
+        },
+        "exchangeName": {
+          "type": "string",
+          "description": "Name of coin exchange in human readable format"
+        },
+        "coinprice": {
+          "type": "float",
+          "description": "price of the coin(in USD)"
+        }
+      }
+    }
+  }
+}
