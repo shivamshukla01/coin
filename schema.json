@@ -28,13 +28,21 @@
           "type": "integer",
           "description": "UID of the exchange"
         },
+        "updateTimestamp": {
+          "type": "integer",
+          "description": "timestamp of last update in our database(in UNIX epoch format)"
+        },
         "exchangeName": {
           "type": "string",
           "description": "Name of coin exchange in human readable format"
         },
-        "coinprice": {
+        "coinbuyprice": {
           "type": "float",
-          "description": "price of the coin(in USD)"
+          "description": "buy price of the coin(in USD)"
+        },
+        "coinsellprice": {
+          "type": "float",
+          "description": "sell price of the coin(in USD)"
         }
       }
     }

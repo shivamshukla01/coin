@@ -4,18 +4,24 @@
   "exchanges": [
     {
       "exchangeUID": 544,
-      "exchangeName": "WazeerX",
-      "coinprice": 12.540
+      "updateTimestamp": 1613838827
+      "exchangeName": "WazirX",
+      "coinbuyprice": 13.004,
+      "coinsellprice": 11.987
     },
     {
       "exchangeUID": 675,
+      "updateTimestamp": 1613838827
       "exchangeName": "Coinbase",
-      "coinprice": 11.980
+      "coinbuyprice": 11.980.004,
+      "coinsellprice": 12.007
     },
     {
       "exchangeUID": 434,
+      "updateTimestamp": 1613838827
       "exchangeName": "CoinDelta",
-      "coinprice": 13.004
+      "coinbuyprice": 13.004,
+      "coinsellprice": 12.987
     }
   ]
 }
