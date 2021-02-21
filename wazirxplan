@@ -1,0 +1,12 @@
+WazirX
+
+
+Backend:
+- dynamodb table acting as centralised store for app
+- lambda function for updating dynamodb table
+- cloudwatch events rule for updating dynamodb table by triggering lambda function based on a cron expression
+
+
+FrontEnd:
+- API gateway triggering lambda function
+- lambda function reading dynamoDB table

@@ -1,0 +1,43 @@
+{
+  "exchangeUID": 1,
+  "exchangeName": "WazirX",
+  "updateTimestamp": 1613911933,
+  "coins": [
+    {
+      "coinUID": "1",
+      "coinName": "BTC",
+      "coinbuyprice": "4301569.0",
+      "coinsellprice": "4303000.0"
+    },
+    {
+      "coinUID": "2",
+      "coinName": "ETH",
+      "coinbuyprice": "146536.7",
+      "coinsellprice": "146980.0"
+    },
+    {
+      "coinUID": "3",
+      "coinName": "LTC",
+      "coinbuyprice": "17119.0",
+      "coinsellprice": "17120.0"
+    },
+    {
+      "coinUID": "4",
+      "coinName": "DOGE",
+      "coinbuyprice": "4.1192",
+      "coinsellprice": "4.12"
+    },
+    {
+      "coinUID": "5",
+      "coinName": "TRX",
+      "coinbuyprice": "4.5083",
+      "coinsellprice": "4.5096"
+    },
+    {
+      "coinUID": "6",
+      "coinName": "ADA",
+      "coinbuyprice": "85.4828",
+      "coinsellprice": "85.49"
+    }
+  ]
+}
