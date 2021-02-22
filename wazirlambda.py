@@ -28,7 +28,7 @@ coindata = json.loads(coindata)
 res["updateTimestamp"]=coindata["at"]
 
 coin = {
-      "coinUID": "1",
+      "coinUID": 1,
       "coinName": "BTC",
       "coinbuyprice": coindata["ticker"]["buy"],
       "coinsellprice": coindata["ticker"]["sell"]
@@ -45,7 +45,7 @@ coindata = response.data.decode("utf-8")
 coindata = json.loads(coindata)
 
 coin = {
-      "coinUID": "2",
+      "coinUID": 2,
       "coinName": "ETH",
       "coinbuyprice": coindata["ticker"]["buy"],
       "coinsellprice": coindata["ticker"]["sell"]
@@ -62,7 +62,7 @@ coindata = response.data.decode("utf-8")
 coindata = json.loads(coindata)
 
 coin = {
-      "coinUID": "3",
+      "coinUID": 3,
       "coinName": "LTC",
       "coinbuyprice": coindata["ticker"]["buy"],
       "coinsellprice": coindata["ticker"]["sell"]
@@ -79,7 +79,7 @@ coindata = response.data.decode("utf-8")
 coindata = json.loads(coindata)
 
 coin = {
-      "coinUID": "4",
+      "coinUID": 4,
       "coinName": "DOGE",
       "coinbuyprice": coindata["ticker"]["buy"],
       "coinsellprice": coindata["ticker"]["sell"]
@@ -96,7 +96,7 @@ coindata = response.data.decode("utf-8")
 coindata = json.loads(coindata)
 
 coin = {
-      "coinUID": "5",
+      "coinUID": 5,
       "coinName": "TRX",
       "coinbuyprice": coindata["ticker"]["buy"],
       "coinsellprice": coindata["ticker"]["sell"]
@@ -113,7 +113,7 @@ coindata = response.data.decode("utf-8")
 coindata = json.loads(coindata)
 
 coin = {
-      "coinUID": "6",
+      "coinUID": 6,
       "coinName": "ADA",
       "coinbuyprice": coindata["ticker"]["buy"],
       "coinsellprice": coindata["ticker"]["sell"]
