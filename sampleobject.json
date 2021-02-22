@@ -1,6 +1,35 @@
+[{
+  "coinUID": 1,
+  "coinName": "BTC",
+  "imageURL": "http://url",
+  "exchanges": [
+    {
+      "exchangeUID": "1",
+      "updateTimestamp": 1613838827
+      "exchangeName": "WazirX",
+      "coinbuyprice": 13.004,
+      "coinsellprice": 11.987
+    },
+    {
+      "exchangeUID": 675,
+      "updateTimestamp": 1613838827,
+      "exchangeName": "Coinbase",
+      "coinbuyprice": 11.980.004,
+      "coinsellprice": 12.007
+    },
+    {
+      "exchangeUID": 434,
+      "updateTimestamp": 1613838827,
+      "exchangeName": "CoinDelta",
+      "coinbuyprice": 13.004,
+      "coinsellprice": 12.987
+    }
+  ]
+},
 {
-  "coinUID": 123,
-  "coinName": "ETH"
+  "coinUID": "2",
+  "coinName": "ETH",
+  "imageURL": "http://url",
   "exchanges": [
     {
       "exchangeUID": 544,
@@ -11,7 +40,7 @@
     },
     {
       "exchangeUID": 675,
-      "updateTimestamp": 1613838827
+      "updateTimestamp": 1613838827,
       "exchangeName": "Coinbase",
       "coinbuyprice": 11.980.004,
       "coinsellprice": 12.007
@@ -24,4 +53,4 @@
       "coinsellprice": 12.987
     }
   ]
-}
+},

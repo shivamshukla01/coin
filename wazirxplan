@@ -10,3 +10,6 @@ Backend:
 FrontEnd:
 - API gateway triggering lambda function
 - lambda function reading dynamoDB table
+
+CFN:
+- wazir

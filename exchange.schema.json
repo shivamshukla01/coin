@@ -26,13 +26,13 @@
   "definitions": {
     "coin": {
       "type": "object",
-      "required": [ "exchangeUID", "exchangeName","coinprice" ],
+      "required": [ "coinUID", "exchangeName","coinprice" ],
       "properties": {
         "coinUID": {
           "type": "integer",
           "description": "UID of the exchange"
         },
-        "exchangeName": {
+        "coinName": {
           "type": "string",
           "description": "Name of coin exchange in human readable format"
         },
