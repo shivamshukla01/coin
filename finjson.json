@@ -1,0 +1,114 @@
+[
+  {
+    "coinUID": 1,
+    "coinName": "BTC",
+    "imageURL": "http://url",
+    "exchanges": [
+      {
+        "exchangeUID": 2,
+        "updateTimestamp": 1613998468,
+        "exchangeName": "ZebPay",
+        "coinbuyprice": "4.1098",
+        "coinsellprice": "4.1007"
+      },
+      {
+        "exchangeUID": 1,
+        "updateTimestamp": 1613998447,
+        "exchangeName": "WazirX",
+        "coinbuyprice": "74.9",
+        "coinsellprice": "74.9925"
+      }
+    ]
+  },
+  {
+    "coinUID": 2,
+    "coinName": "ETH",
+    "imageURL": "http://url",
+    "exchanges": [
+      {
+        "exchangeUID": 2,
+        "updateTimestamp": 1613998468,
+        "exchangeName": "ZebPay",
+        "coinbuyprice": "4.1098",
+        "coinsellprice": "4.1007"
+      },
+      {
+        "exchangeUID": 1,
+        "updateTimestamp": 1613998447,
+        "exchangeName": "WazirX",
+        "coinbuyprice": "74.9",
+        "coinsellprice": "74.9925"
+      }
+    ]
+  },
+  {
+    "coinUID": 3,
+    "coinName": "LTC",
+    "imageURL": "http://url",
+    "exchanges": [
+      {
+        "exchangeUID": 2,
+        "updateTimestamp": 1613998468,
+        "exchangeName": "ZebPay",
+        "coinbuyprice": "4.1098",
+        "coinsellprice": "4.1007"
+      },
+      {
+        "exchangeUID": 1,
+        "updateTimestamp": 1613998447,
+        "exchangeName": "WazirX",
+        "coinbuyprice": "74.9",
+        "coinsellprice": "74.9925"
+      }
+    ]
+  },
+  {
+    "coinUID": 4,
+    "coinName": "DOGE",
+    "imageURL": "http://url",
+    "exchanges": [
+      {
+        "exchangeUID": 1,
+        "updateTimestamp": 1613998447,
+        "exchangeName": "WazirX",
+        "coinbuyprice": "74.9",
+        "coinsellprice": "74.9925"
+      }
+    ]
+  },
+  {
+    "coinUID": 5,
+    "coinName": "TRX",
+    "imageURL": "http://url",
+    "exchanges": [
+      {
+        "exchangeUID": 2,
+        "updateTimestamp": 1613998468,
+        "exchangeName": "ZebPay",
+        "coinbuyprice": "4.1098",
+        "coinsellprice": "4.1007"
+      },
+      {
+        "exchangeUID": 1,
+        "updateTimestamp": 1613998447,
+        "exchangeName": "WazirX",
+        "coinbuyprice": "74.9",
+        "coinsellprice": "74.9925"
+      }
+    ]
+  },
+  {
+    "coinUID": 6,
+    "coinName": "ADA",
+    "imageURL": "http://url",
+    "exchanges": [
+      {
+        "exchangeUID": 1,
+        "updateTimestamp": 1613998447,
+        "exchangeName": "WazirX",
+        "coinbuyprice": "74.9",
+        "coinsellprice": "74.9925"
+      }
+    ]
+  }
+]
